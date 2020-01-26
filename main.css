@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 16px;
+    font-family: "Karla", sans-serif;
+  }
+  
+  /* join our community section */
+  
+  .join-our-community {
+    height: 40vh;
+    width: 100%;
+    padding: 30px 25px 0px 25px;
+    background-color: snow;
+  }
+  
+  .join-our-community h1 {
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .join-our-community h2 {
+    color: hsla(71, 73%, 54%, 0.856);
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .join-our-community p {
+    color: rgb(179, 179, 179);
+  }
+  
+  /* pricing section */
+  
+  .pricing {
+    height: 30vh;
+    width: 100%;
+    background-color: hsl(179, 62%, 43%);
+    padding: 20px;
+  }
+  
+  .pricing h2 {
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .pricing p {
+    color: hsla(203,44%,93%,0.71);
+    margin-bottom: 15px;
+  }
+  
+  .price {
+    color: white;
+    font-size: 2rem;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  
+  .pricing:nth-child(3) {
+    background-color: whitesmoke;
+  }
+  
+  .why-us {
+    height: 30vh;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(27, 183, 189, 0.6);
+  }
+    .why-us h2{
+        color:white;
+        margin-bottom: 15px;
+    }
+    .why-us p{
+        color: rgb(247, 238, 238);
+    }
+
+  
+.pricing button{
+     background-color: hsla(71, 73%, 54%, 0.856); 
+      color: hsla(203,44%,93%,0.71); 
+      height: 40px;
+      width: 250px;
+
+
+}
